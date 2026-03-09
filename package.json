@@ -1,0 +1,31 @@
+{
+  "name": "@aurajs/darwin-x64",
+  "version": "0.1.0",
+  "description": "AuraJS native host binary package for darwin-x64",
+  "license": "MIT",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "bin/**",
+    "index.js",
+    "README.md"
+  ],
+  "aurajsHost": {
+    "binaryPath": "bin/aurajs-host",
+    "checksumAlgorithm": "sha256",
+    "checksum": "7d4827b79325486d1e01626a31b03fa485c258b0d23ac7997a5ed014df9fe044"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
